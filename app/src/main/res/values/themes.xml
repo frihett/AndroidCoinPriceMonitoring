@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.CoinMonitoring" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+
+    <style name="Theme.CoinMonitoring.Splash" parent="Theme.SplashScreen" > 
+        <item name="windowSplashScreenBackground">@color/red</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/graph</item>
+        <item name="postSplashScreenTheme">@style/Theme.CoinMonitoring</item>
+    </style>
+
+</resources>
